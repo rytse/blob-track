@@ -30,3 +30,15 @@
 
 # CLion
 *.idea
+.gitignore
+.idea/blob-track.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+
+# Build files and executables
+CMakeCache.txt
+CMakeFiles/
+Makefile
+blob-track
+cmake_install.cmake
