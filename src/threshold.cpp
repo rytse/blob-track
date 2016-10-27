@@ -5,8 +5,7 @@
  */
 
 #include <opencv2/opencv.hpp>
-#include <stdio.h>
-#include "../include/threshold.h"
+#include <cstdio>
 
 using namespace cv;
 
