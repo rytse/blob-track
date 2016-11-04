@@ -7,6 +7,7 @@
 #include <opencv2/opencv.hpp>
 #include "../include/main.h"
 #include "../include/threshold.h"
+#include "blobdetect.h"
 
 using namespace cv;
 
@@ -17,5 +18,6 @@ using namespace cv;
  * @return exit status
  */
 int main(int argc, char *argv[]) {
-    capThreshBin(0, 200);
+//    capThreshBin(0, 200);
+    rectDetect(1);
 }

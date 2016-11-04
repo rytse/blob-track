@@ -5,7 +5,7 @@
  */
 
 #include <opencv2/opencv.hpp>
-#include <cstdio>
+#include <stdio.h>
 
 using namespace cv;
 
