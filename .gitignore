@@ -42,3 +42,6 @@ CMakeFiles/
 Makefile
 blob-track
 cmake_install.cmake
+
+# Vim
+*.swp
