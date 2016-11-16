@@ -26,7 +26,7 @@ include_directories(${blob-track_INCLUDE_DIRS})
 #include_directories("${PROJECT_SOURCE_DIR}/src")
 
 # Add executable
-add_executable(blob-track ${blob-track_SOURCES})
+add_executable(blob-track ${blob-track_SOURCES} src/hsvfilter.cpp include/hsvfilter.h)
 
 # Get dependencies
 find_package(OpenCV REQUIRED)

@@ -5,9 +5,8 @@
  */
 
 #include <opencv2/opencv.hpp>
+#include <hsvfilter.h>
 #include "../include/main.h"
-#include "../include/threshold.h"
-#include "blobdetect.h"
 
 using namespace cv;
 
@@ -19,5 +18,6 @@ using namespace cv;
  */
 int main(int argc, char *argv[]) {
 //    capThreshBin(0, 200);
-    rectDetect(1);
+//    rectDetect(0);
+	testFilterHsv();
 }
